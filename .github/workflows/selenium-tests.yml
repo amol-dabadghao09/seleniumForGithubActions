@@ -40,10 +40,19 @@ jobs:
         with:
           name: test-reports
           path: target/surefire-reports
+      - name: Check for screenshots
+        id: check-screenshots
+        run: |
+          if [ -d target/screenshots ] && [ "$(ls -A target/screenshots)" ]; then
+            echo "found=true" >> $GITHUB_OUTPUT
+          else
+            echo "found=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Upload screenshots
-        if: always()
+        if: steps.check-screenshots.outputs.found == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: screenshots
-          path: target/screenshots
+          path: target/screenshots/**
           
