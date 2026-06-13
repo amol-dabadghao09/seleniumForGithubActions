@@ -3,7 +3,6 @@ package test;
 import io.qameta.allure.*;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import page.HomePage;
 import page.LoginPage;
 
 import static io.qameta.allure.SeverityLevel.BLOCKER;
