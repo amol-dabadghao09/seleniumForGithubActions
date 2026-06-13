@@ -27,8 +27,8 @@ public class LoginTest extends BaseTest {
     @Description("Verify that a valid user can login to the application")
     @Story("As a user I should be able to login to the application")
     public void testValidLogin() {
-        loginPage.login("osanda@mailinator.com","1qaz2wsx@");
-        assertEquals(new HomePage(getDriver()).getLoggedInUsername(), "Osanda Nimalarathna");
+        loginPage.login("student","Password123");
+        assertEquals(getDriver().findElement(org.openqa.selenium.By.xpath("//h1[@class='post-title']")).getText(), "Logged In Successfully");
     }
 
     @Test(description = "Verify that an invalid user cannot login to the application")
@@ -36,7 +36,7 @@ public class LoginTest extends BaseTest {
     @Description("Verify that an invalid user cannot login to the application")
     @Story("As a user I should be able to login to the application")
     public void testInvalidLogin() {
-        loginPage.login("osanda@mailinator.com","abc12");
-        assertEquals(getDriver().getTitle(), "Login - My Store");
+        loginPage.login("incorrectUser","Password123");
+        assertEquals(getDriver().findElement(org.openqa.selenium.By.xpath("//div[@id='error']")).getText(), "Your username is invalid!");
     }
 }
