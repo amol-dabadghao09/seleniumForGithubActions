@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="12.316" tests="16" errors="0" skipped="14" failures="2">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\apache-maven-3.9.8\boot\plexus-classworlds-2.8.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="maven.conf" value="D:\apache-maven-3.9.8/conf"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install -f c:\Users\amol\eclipse-workspace\SeleniumProjectWithAllureAndPropertyFile\pom.xml"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="D:\apache-maven-3.9.8"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\amol"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-22"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.1+8-16"/>
+    <property name="user.name" value="amol"/>
+    <property name="stdout.encoding" value="cp437"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\amol\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.1"/>
+    <property name="user.dir" value="C:\Users\amol\eclipse-workspace\SeleniumProjectWithAllureAndPropertyFile"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\amol\eclipse-workspace\SeleniumProjectWithAllureAndPropertyFile"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\amol\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\amol\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\amol\AppData\Local\Programs\Microsoft VS Code;C:\app\amol\product\21c\dbhomeXE\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\HP\HP One Agent;C:\Program Files (x86)\Groovy\bin;D:\allure-commandline-2.24.0\allure-2.24.0\bin;%MAVEN_HOME%bin;D:\apache-maven-3.9.8\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;;C:\ProgramData\chocolatey\bin;C:\Users\amol\AppData\Local\Programs\Python\Launcher\;C:\Users\amol\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-17.0.5\bin;C:\Users\amol\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\amol\AppData\Roaming\npm;c:\Users\amol\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.1+8-16"/>
+    <property name="classworlds.conf" value="D:\apache-maven-3.9.8\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="D:\apache-maven-3.9.8\lib\jansi-native"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="before" classname="test.SearchTest" time="11.948">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 126&#10;Current browser version is 147.0.7727.138 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-BHR3PSD&apos;, ip: &apos;192.168.1.27&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: 	GetHandleVerifier [0x009EC1C3+27395]&#10;	(No symbol) [0x00983DC4]&#10;	(No symbol) [0x00881B7F]&#10;	(No symbol) [0x008B4B8A]&#10;	(No symbol) [0x008B3EED]&#10;	(No symbol) [0x008AEFAF]&#10;	(No symbol) [0x008AAC69]&#10;	(No symbol) [0x008ED58E]&#10;	(No symbol) [0x008ECDAA]&#10;	(No symbol) [0x008E3736]&#10;	(No symbol) [0x008B7541]&#10;	(No symbol) [0x008B80BD]&#10;	GetHandleVerifier [0x00CA3A93+2876371]&#10;	GetHandleVerifier [0x00CF7F5D+3221661]&#10;	GetHandleVerifier [0x00A6D634+556916]&#10;	GetHandleVerifier [0x00A7474C+585868]&#10;	(No symbol) [0x0098CE04]&#10;	(No symbol) [0x00989818]&#10;	(No symbol) [0x009899B7]&#10;	(No symbol) [0x0097BF0E]&#10;	BaseThreadInitThunk [0x75FA5D49+25]&#10;	RtlInitializeExceptionChain [0x77E6D83B+107]&#10;	RtlGetAppContainerNamedObjectPath [0x77E6D7C1+561]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 126
+Current browser version is 147.0.7727.138 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BHR3PSD', ip: '192.168.1.27', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x009EC1C3+27395]
+	(No symbol) [0x00983DC4]
+	(No symbol) [0x00881B7F]
+	(No symbol) [0x008B4B8A]
+	(No symbol) [0x008B3EED]
+	(No symbol) [0x008AEFAF]
+	(No symbol) [0x008AAC69]
+	(No symbol) [0x008ED58E]
+	(No symbol) [0x008ECDAA]
+	(No symbol) [0x008E3736]
+	(No symbol) [0x008B7541]
+	(No symbol) [0x008B80BD]
+	GetHandleVerifier [0x00CA3A93+2876371]
+	GetHandleVerifier [0x00CF7F5D+3221661]
+	GetHandleVerifier [0x00A6D634+556916]
+	GetHandleVerifier [0x00A7474C+585868]
+	(No symbol) [0x0098CE04]
+	(No symbol) [0x00989818]
+	(No symbol) [0x009899B7]
+	(No symbol) [0x0097BF0E]
+	BaseThreadInitThunk [0x75FA5D49+25]
+	RtlInitializeExceptionChain [0x77E6D83B+107]
+	RtlGetAppContainerNamedObjectPath [0x77E6D7C1+561]
+
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+Starting Test Suite 'Regression Test'.......
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChStartroing ChromeDmeDrriver 126.0.6478.126 (d36ace61iver 22e0a126.0.6478.126 (d36ace6122e0a59570e258d82441395206d60e1c-refs/branch-heads/6478@{#1591}) on por59t570 19536e25
+Only local conn8decti82ons4413 are95206d6 allowed.
+0e1Please seec -rehtfstps:///brachromednch-hriver.cheads/6478@{romium.org#15/se91})curity-con on sideraport 2tions fo846r suggest3
+Only local coinons on keenections aping Chromre aeDriverllo swafe.
+ed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="before" classname="test.SearchTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="searchBeforeMethod" classname="test.SearchTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="searchBeforeMethod" classname="test.SearchTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSearchResult" classname="test.SearchTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 126&#10;Current browser version is 147.0.7727.138 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-BHR3PSD&apos;, ip: &apos;192.168.1.27&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: 	GetHandleVerifier [0x009EC1C3+27395]&#10;	(No symbol) [0x00983DC4]&#10;	(No symbol) [0x00881B7F]&#10;	(No symbol) [0x008B4B8A]&#10;	(No symbol) [0x008B3EED]&#10;	(No symbol) [0x008AEFAF]&#10;	(No symbol) [0x008AAC69]&#10;	(No symbol) [0x008ED58E]&#10;	(No symbol) [0x008ECDAA]&#10;	(No symbol) [0x008E3736]&#10;	(No symbol) [0x008B7541]&#10;	(No symbol) [0x008B80BD]&#10;	GetHandleVerifier [0x00CA3A93+2876371]&#10;	GetHandleVerifier [0x00CF7F5D+3221661]&#10;	GetHandleVerifier [0x00A6D634+556916]&#10;	GetHandleVerifier [0x00A7474C+585868]&#10;	(No symbol) [0x0098CE04]&#10;	(No symbol) [0x00989818]&#10;	(No symbol) [0x009899B7]&#10;	(No symbol) [0x0097BF0E]&#10;	BaseThreadInitThunk [0x75FA5D49+25]&#10;	RtlInitializeExceptionChain [0x77E6D83B+107]&#10;	RtlGetAppContainerNamedObjectPath [0x77E6D7C1+561]&#10;"/>
+  </testcase>
+  <testcase name="after" classname="test.SearchTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Method 'testSearchResult' is Skipped
+]]></system-out>
+  </testcase>
+  <testcase name="after" classname="test.SearchTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Method 'testSearchResultCount' is Skipped
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchResultCount" classname="test.SearchTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 126&#10;Current browser version is 147.0.7727.138 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-BHR3PSD&apos;, ip: &apos;192.168.1.27&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: 	GetHandleVerifier [0x009EC1C3+27395]&#10;	(No symbol) [0x00983DC4]&#10;	(No symbol) [0x00881B7F]&#10;	(No symbol) [0x008B4B8A]&#10;	(No symbol) [0x008B3EED]&#10;	(No symbol) [0x008AEFAF]&#10;	(No symbol) [0x008AAC69]&#10;	(No symbol) [0x008ED58E]&#10;	(No symbol) [0x008ECDAA]&#10;	(No symbol) [0x008E3736]&#10;	(No symbol) [0x008B7541]&#10;	(No symbol) [0x008B80BD]&#10;	GetHandleVerifier [0x00CA3A93+2876371]&#10;	GetHandleVerifier [0x00CF7F5D+3221661]&#10;	GetHandleVerifier [0x00A6D634+556916]&#10;	GetHandleVerifier [0x00A7474C+585868]&#10;	(No symbol) [0x0098CE04]&#10;	(No symbol) [0x00989818]&#10;	(No symbol) [0x009899B7]&#10;	(No symbol) [0x0097BF0E]&#10;	BaseThreadInitThunk [0x75FA5D49+25]&#10;	RtlInitializeExceptionChain [0x77E6D83B+107]&#10;	RtlGetAppContainerNamedObjectPath [0x77E6D7C1+561]&#10;"/>
+  </testcase>
+  <testcase name="before" classname="test.LoginTest" time="12.024">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 126&#10;Current browser version is 147.0.7727.138 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-BHR3PSD&apos;, ip: &apos;192.168.1.27&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: 	GetHandleVerifier [0x009EC1C3+27395]&#10;	(No symbol) [0x00983DC4]&#10;	(No symbol) [0x00881B7F]&#10;	(No symbol) [0x008B4B8A]&#10;	(No symbol) [0x008B3EED]&#10;	(No symbol) [0x008AEFAF]&#10;	(No symbol) [0x008AAC69]&#10;	(No symbol) [0x008ED58E]&#10;	(No symbol) [0x008ECDAA]&#10;	(No symbol) [0x008E3736]&#10;	(No symbol) [0x008B7541]&#10;	(No symbol) [0x008B80BD]&#10;	GetHandleVerifier [0x00CA3A93+2876371]&#10;	GetHandleVerifier [0x00CF7F5D+3221661]&#10;	GetHandleVerifier [0x00A6D634+556916]&#10;	GetHandleVerifier [0x00A7474C+585868]&#10;	(No symbol) [0x0098CE04]&#10;	(No symbol) [0x00989818]&#10;	(No symbol) [0x009899B7]&#10;	(No symbol) [0x0097BF0E]&#10;	BaseThreadInitThunk [0x75FA5D49+25]&#10;	RtlInitializeExceptionChain [0x77E6D83B+107]&#10;	RtlGetAppContainerNamedObjectPath [0x77E6D7C1+561]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 126
+Current browser version is 147.0.7727.138 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BHR3PSD', ip: '192.168.1.27', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x009EC1C3+27395]
+	(No symbol) [0x00983DC4]
+	(No symbol) [0x00881B7F]
+	(No symbol) [0x008B4B8A]
+	(No symbol) [0x008B3EED]
+	(No symbol) [0x008AEFAF]
+	(No symbol) [0x008AAC69]
+	(No symbol) [0x008ED58E]
+	(No symbol) [0x008ECDAA]
+	(No symbol) [0x008E3736]
+	(No symbol) [0x008B7541]
+	(No symbol) [0x008B80BD]
+	GetHandleVerifier [0x00CA3A93+2876371]
+	GetHandleVerifier [0x00CF7F5D+3221661]
+	GetHandleVerifier [0x00A6D634+556916]
+	GetHandleVerifier [0x00A7474C+585868]
+	(No symbol) [0x0098CE04]
+	(No symbol) [0x00989818]
+	(No symbol) [0x009899B7]
+	(No symbol) [0x0097BF0E]
+	BaseThreadInitThunk [0x75FA5D49+25]
+	RtlInitializeExceptionChain [0x77E6D83B+107]
+	RtlGetAppContainerNamedObjectPath [0x77E6D7C1+561]
+
+</failure>
+  </testcase>
+  <testcase name="before" classname="test.LoginTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginBeforeMethod" classname="test.LoginTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginBeforeMethod" classname="test.LoginTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testInvalidLogin" classname="test.LoginTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 126&#10;Current browser version is 147.0.7727.138 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-BHR3PSD&apos;, ip: &apos;192.168.1.27&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: 	GetHandleVerifier [0x009EC1C3+27395]&#10;	(No symbol) [0x00983DC4]&#10;	(No symbol) [0x00881B7F]&#10;	(No symbol) [0x008B4B8A]&#10;	(No symbol) [0x008B3EED]&#10;	(No symbol) [0x008AEFAF]&#10;	(No symbol) [0x008AAC69]&#10;	(No symbol) [0x008ED58E]&#10;	(No symbol) [0x008ECDAA]&#10;	(No symbol) [0x008E3736]&#10;	(No symbol) [0x008B7541]&#10;	(No symbol) [0x008B80BD]&#10;	GetHandleVerifier [0x00CA3A93+2876371]&#10;	GetHandleVerifier [0x00CF7F5D+3221661]&#10;	GetHandleVerifier [0x00A6D634+556916]&#10;	GetHandleVerifier [0x00A7474C+585868]&#10;	(No symbol) [0x0098CE04]&#10;	(No symbol) [0x00989818]&#10;	(No symbol) [0x009899B7]&#10;	(No symbol) [0x0097BF0E]&#10;	BaseThreadInitThunk [0x75FA5D49+25]&#10;	RtlInitializeExceptionChain [0x77E6D83B+107]&#10;	RtlGetAppContainerNamedObjectPath [0x77E6D7C1+561]&#10;"/>
+  </testcase>
+  <testcase name="after" classname="test.LoginTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Method 'testInvalidLogin' is Skipped
+]]></system-out>
+  </testcase>
+  <testcase name="after" classname="test.LoginTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Method 'testValidLogin' is Skipped
+]]></system-out>
+  </testcase>
+  <testcase name="testValidLogin" classname="test.LoginTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 126&#10;Current browser version is 147.0.7727.138 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-BHR3PSD&apos;, ip: &apos;192.168.1.27&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: 	GetHandleVerifier [0x009EC1C3+27395]&#10;	(No symbol) [0x00983DC4]&#10;	(No symbol) [0x00881B7F]&#10;	(No symbol) [0x008B4B8A]&#10;	(No symbol) [0x008B3EED]&#10;	(No symbol) [0x008AEFAF]&#10;	(No symbol) [0x008AAC69]&#10;	(No symbol) [0x008ED58E]&#10;	(No symbol) [0x008ECDAA]&#10;	(No symbol) [0x008E3736]&#10;	(No symbol) [0x008B7541]&#10;	(No symbol) [0x008B80BD]&#10;	GetHandleVerifier [0x00CA3A93+2876371]&#10;	GetHandleVerifier [0x00CF7F5D+3221661]&#10;	GetHandleVerifier [0x00A6D634+556916]&#10;	GetHandleVerifier [0x00A7474C+585868]&#10;	(No symbol) [0x0098CE04]&#10;	(No symbol) [0x00989818]&#10;	(No symbol) [0x009899B7]&#10;	(No symbol) [0x0097BF0E]&#10;	BaseThreadInitThunk [0x75FA5D49+25]&#10;	RtlInitializeExceptionChain [0x77E6D83B+107]&#10;	RtlGetAppContainerNamedObjectPath [0x77E6D7C1+561]&#10;"/>
+  </testcase>
+</testsuite>

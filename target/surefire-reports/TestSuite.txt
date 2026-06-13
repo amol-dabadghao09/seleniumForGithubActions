@@ -1,0 +1,68 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 2, Errors: 0, Skipped: 14, Time elapsed: 12.316 s <<< FAILURE! - in TestSuite
+before(test.SearchTest)  Time elapsed: 11.948 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 126
+Current browser version is 147.0.7727.138 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BHR3PSD', ip: '192.168.1.27', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x009EC1C3+27395]
+	(No symbol) [0x00983DC4]
+	(No symbol) [0x00881B7F]
+	(No symbol) [0x008B4B8A]
+	(No symbol) [0x008B3EED]
+	(No symbol) [0x008AEFAF]
+	(No symbol) [0x008AAC69]
+	(No symbol) [0x008ED58E]
+	(No symbol) [0x008ECDAA]
+	(No symbol) [0x008E3736]
+	(No symbol) [0x008B7541]
+	(No symbol) [0x008B80BD]
+	GetHandleVerifier [0x00CA3A93+2876371]
+	GetHandleVerifier [0x00CF7F5D+3221661]
+	GetHandleVerifier [0x00A6D634+556916]
+	GetHandleVerifier [0x00A7474C+585868]
+	(No symbol) [0x0098CE04]
+	(No symbol) [0x00989818]
+	(No symbol) [0x009899B7]
+	(No symbol) [0x0097BF0E]
+	BaseThreadInitThunk [0x75FA5D49+25]
+	RtlInitializeExceptionChain [0x77E6D83B+107]
+	RtlGetAppContainerNamedObjectPath [0x77E6D7C1+561]
+
+
+before(test.LoginTest)  Time elapsed: 12.024 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 126
+Current browser version is 147.0.7727.138 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BHR3PSD', ip: '192.168.1.27', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x009EC1C3+27395]
+	(No symbol) [0x00983DC4]
+	(No symbol) [0x00881B7F]
+	(No symbol) [0x008B4B8A]
+	(No symbol) [0x008B3EED]
+	(No symbol) [0x008AEFAF]
+	(No symbol) [0x008AAC69]
+	(No symbol) [0x008ED58E]
+	(No symbol) [0x008ECDAA]
+	(No symbol) [0x008E3736]
+	(No symbol) [0x008B7541]
+	(No symbol) [0x008B80BD]
+	GetHandleVerifier [0x00CA3A93+2876371]
+	GetHandleVerifier [0x00CF7F5D+3221661]
+	GetHandleVerifier [0x00A6D634+556916]
+	GetHandleVerifier [0x00A7474C+585868]
+	(No symbol) [0x0098CE04]
+	(No symbol) [0x00989818]
+	(No symbol) [0x009899B7]
+	(No symbol) [0x0097BF0E]
+	BaseThreadInitThunk [0x75FA5D49+25]
+	RtlInitializeExceptionChain [0x77E6D83B+107]
+	RtlGetAppContainerNamedObjectPath [0x77E6D7C1+561]
+
+

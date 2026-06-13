@@ -1,0 +1,8 @@
+util\AllureReportListener.class
+util\driver\DriverFactory.class
+page\HomePage.class
+page\BasePage.class
+util\PropertyFileReader.class
+page\SearchResultPage.class
+util\driver\DriverHolder.class
+page\LoginPage.class
