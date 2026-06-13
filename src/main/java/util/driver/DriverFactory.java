@@ -5,9 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxBinary;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
 
 public class DriverFactory {
 
@@ -47,8 +44,8 @@ public class DriverFactory {
 	   // chromeOptions.addArguments("--headless");
 	    chromeOptions.addArguments("start-maximized");
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\amol\\OneDrive\\Documents\\Automation\\Selenium\\chromedriver-win32_126.0.6478\\chromedriver.exe");
-	    WebDriver driver = new ChromeDriver(chromeOptions);
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver(chromeOptions);
 	    return driver;
 	    
 	}

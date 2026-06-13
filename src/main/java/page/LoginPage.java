@@ -8,6 +8,7 @@ public class LoginPage extends BasePage {
     private final By emailTextBox = By.id("email");
     private final By passwordTextBox = By.id("passwd");
     private final By signInButton = By.id("SubmitLogin");
+    private final By signInLink = By.cssSelector("a.login");
 
     public LoginPage(WebDriver driver) {
         super(driver);
@@ -26,6 +27,8 @@ public class LoginPage extends BasePage {
     }
 
     public void login(String email, String password) {
+        // navigate to sign-in page first
+        click(signInLink);
         setEmail(email);
         setPassword(password);
         clickSignIn();
